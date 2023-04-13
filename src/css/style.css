@@ -292,7 +292,6 @@ margin-left: 80px;
 
     /* tajemství našich květin */
     .flower_background{
-      position: absolute;
     width: 1400px;
     height: 650px;
     background: rgba(255, 160, 122, 0.15);
@@ -300,6 +299,7 @@ margin-left: 80px;
     border-radius: 20px;
     margin-left: 250px;
     margin-top: 70px;
+    display: block;
    
     }
 
@@ -346,7 +346,59 @@ margin-left: 80px;
       line-height: 30px;
      }
 
-      
+     /* infromace (kontakt....) */
+    
+     .info {
+      display: flex;
+      background: rgba(143, 128, 184, 0.3);
+      margin-top: 50px;
+      padding-bottom: 30px;
+      width: 1900px;
+    }
+    
+    .info_contact{padding-left: 260px;
+    padding-top: 20px;}
+
+    .info_icons_all{padding-left: 400px;
+    padding-top: 20px;}
+
+    .info_terms{
+      padding-left: 300px;
+      padding-top: 20px;
+    }
+    
+    .info_icons_container {
+      display: flex;
+      background-color: white;
+      padding-top:10px;
+      padding-left: 20px;
+      padding-right: 10px;
+      padding-bottom: 10px;
+      border-radius: 10px;
+      margin-top: 10px;
+    }
+    
+    .info_icons_container img {
+      margin-right: 10px;
+    }
+
+    .info_icon{width: 40px;
+    cursor: pointer;
+  padding-left: 5px;}
+
+  .info_icons_title{text-align: center;}
+ /* copy */
+  .copy{background: #8F80B8;
+  width: 1910px;
+height: 40px;}
+
+.copy_title{
+  padding-left: 805px;
+  padding-top: 10px;
+}
+
+    
+
 
 @media screen and (max-width: 1280px)
 {
@@ -421,10 +473,31 @@ margin-left: 18px;}
   width: 1300px;
 }
 
+/* kontakty */
+.info_contact{padding-left: 100px;
+  padding-top: 20px;}
+
+  .info_icons_all{padding-left: 280px;
+    padding-top: 20px;}
+
+    
+    .info_terms{
+      padding-left: 260px;
+      padding-top: 20px;
+    }
+    .info {
+      display: flex;
+      background: rgba(143, 128, 184, 0.3);
+      margin-top: 50px;
+      padding-bottom: 30px;
+      width: 1400px;
 }
 
+.copy{background: #8F80B8;
+  width: 1400px;
+height: 40px;}
 
-
+.copy_title{padding-left: 550px;}
 
 
 
@@ -435,7 +508,7 @@ margin-left: 18px;}
 @media screen and (max-width: 640px)
 {
   .background{
-    margin-left: 125px;
+    margin-left: 110px;
   }
 
   .cart{
@@ -445,7 +518,7 @@ margin-left: 18px;}
   /* offer sekce */
   .garden_offer{
     width: 500px;
-    margin-left: 125px;
+    margin-left: 116px;
   }
 
   .offer_title{
@@ -459,7 +532,24 @@ margin-left: 18px;}
   /* květiny */
 
   .flower_title{
-    padding-left: 550px;
-
+    padding-left: 260px;
+    white-space: nowrap;
   }
+
+  .flower_background{margin-left: 17px;}
+  .info {
+    display: flex;
+    background: rgba(143, 128, 184, 0.3);
+    margin-top: 50px;
+    padding-bottom: 30px;
+    width: 1600px;
+}
+
+.about_skill{
+  margin-left: 6px;
+}
+
+.info_contact{
+  padding-left: 80px;
+}
 }
